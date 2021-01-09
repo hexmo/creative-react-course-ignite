@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Game = ({ name, released, id, image }) => {
 	return (
 		<StyledGame>
-			<h4>{name}</h4>
+			<h3>{name}</h3>
 			<p>{released}</p>
 			<img src={image} alt={name} />
 		</StyledGame>
