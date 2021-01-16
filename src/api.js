@@ -36,5 +36,9 @@ const upcoming_games = `games?dates=${currentDate},${nextYear}&odering=-added&pa
 export const popularGamesUrl = () => `${base_url}${popular_games}`;
 export const newGamesUrl = () => `${base_url}${new_games}`;
 export const upcomingGamesUrl = () => `${base_url}${upcoming_games}`;
+export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}`;
+// game screenshots
+export const gameScreenshotURL = (game_id) =>
+	`${base_url}games/${game_id}/screenshots`;
 
 // console.log(popularGamesUrl());
